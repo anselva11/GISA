@@ -70,7 +70,7 @@ const Home = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12">
             {[
-              { icon: Box, label: '100+', text: 'Products' },
+              { icon: Box, label: '15+', text: 'Products' },
               { icon: Briefcase, label: '50+', text: 'Projects' },
               { icon: Users, label: '24/7', text: 'Support' },
               { icon: Zap, label: '100%', text: 'End-to-End Solutions' },
