@@ -1,4 +1,5 @@
 import ftthCableImage from '../assets/FTTH Drop Cable 2 Core.jpg';
+import arubaImage from '../assets/aruba';
 
 export const products = [
   // Fiber Optic
@@ -50,7 +51,7 @@ export const products = [
     category: "Network Hardware",
     brand: "Aruba",
     sku: "AP-W6-PRO",
-    image: "https://images.unsplash.com/photo-1616423640778-28d1b53229bd?q=80&w=600&auto=format&fit=crop",
+    image: arubaImage,
     description: "High-density Wi-Fi 6 access point for corporate offices, providing reliable and fast wireless connectivity.",
     specifications: { "Standard": "802.11ax (Wi-Fi 6)", "Bands": "Dual-Band 2.4/5GHz", "Throughput": "up to 3.0 Gbps", "Power": "PoE+" }
   },
