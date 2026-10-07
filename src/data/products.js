@@ -1,5 +1,5 @@
 import ftthCableImage from '../assets/FTTH Drop Cable 2 Core.jpg';
-import arubaImage from '../assets/aruba';
+import arubaImage from '../assets/aruba_ap-515_1.jpg';
 
 export const products = [
   // Fiber Optic
