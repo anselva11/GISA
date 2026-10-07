@@ -5,6 +5,7 @@ import { fadeUp, staggerContainer, staggerItem } from '../animations/variants';
 import SectionHeading from '../components/SectionHeading';
 import { services } from '../data/services';
 import { ArrowRight, CheckCircle2, Users, Briefcase, Zap } from 'lucide-react';
+import bgImage from '../assets/bg.jpg';
 
 const Home = () => {
   return (
@@ -13,7 +14,7 @@ const Home = () => {
       <section className="relative h-screen min-h-[600px] flex items-center bg-primary overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <img 
-            src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2000&auto=format&fit=crop" 
+            src={bgImage} 
             alt="Data Center Infrastructure" 
             className="w-full h-full object-cover"
           />
